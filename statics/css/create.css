@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Pacifico&display=swap');
+
+body {
+
+    height: 90%;
+    font-family: ".SFNSText-Medium", "SFProText-Medium", "SFUIText-Medium", ".SFUIText-Medium", "SF Pro Text", "-apple-system", "BlinkMacSystemFont", sans-serif;
+
+}
+
+
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: 'calibri';
+}
+
+header {
+  background: #03A9F4;
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 50px;
+  float: left;
+  padding: 8px;
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1{
+    width: 80%;
+height: 80%;
+font-weight: 450;
+font-style: normal;
+font-family: 'Arvo', serif;
+color: #273D59;
+font-size: 60px;
+letter-spacing: 0px;
+line-height: 1.2;
+
+}
+h2{
+width: 300px;
+height: 47px;
+padding: 0%;
+font-weight: 700;
+font-style: normal;
+font-family: "Open Sans", sans-serif;
+color: #2B4040;
+font-size: 22px;
+letter-spacing: 0px;
+line-height: 1.2;
+margin-bottom :2px;
+}
+.form-control{
+    background-color: rgb(228, 225, 225);
+    margin-top:  0;
+    border: none;
+    height: 50px;
+}
+
+.button-steps  button, .preview button, .Send{
+    background-color: #86adc0;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 30px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+  }
+.preview button{
+  float: right;
+}

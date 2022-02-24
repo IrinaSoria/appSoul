@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+}
+img{
+      flex:25%;
+      width: 500px;
+        height: 100%;
+        overflow: hidden;
+        white-space: pre-wrap;
+        }
+p{
+      flex:75%;
+}
+div .row{
+      display:flex;
+      flex-direction: row;
+      padding: 1rem;
+  }
+
+
+h1 {
+    width: 15em;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Arvo", serif;
+    color: #273D59;
+    font-size: 50px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    margin-block-end: 0.1em;
+}
+
+img #boyread {
+width: 452px;
+height: 716px;
+overflow: visible;
+opacity: 0.53;
+background-image: url(/* aaron-burden-6jYoil2GhVk-unsplash.jpg */);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 6px;
+}
